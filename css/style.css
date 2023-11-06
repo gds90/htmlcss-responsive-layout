@@ -24,6 +24,16 @@ header {
     padding: 0 40px;
     align-items: center;
 }
+.header-menu {
+    display: none;
+    list-style: none;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
 .icon-hamburger {
     display: block;
 }
@@ -120,5 +130,11 @@ header {
     }
     .about-us .col-40 {
         width: calc(30% - 20px);
+    }
+    .icon-hamburger{
+        display: none;
+    }
+    .header-menu {
+        display: flex;
     }
 }

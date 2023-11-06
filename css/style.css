@@ -8,12 +8,12 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header {
-    background-color: rgb(57,130,245);
-}
-
 .db {
     border: 1px dashed black;
+}
+/* HEADER  */
+header {
+    background-color: rgb(57,130,245);
 }
 
 .header-content {
@@ -34,8 +34,19 @@ header {
     color: white;
     padding: 30px;
 }
+.header-menu li {
+    line-height: 2.5;
+}
 .icon-hamburger {
     display: block;
+    font-size: 1.5rem;
+}
+.start-button {
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 40px;
+    background-color: #fff;
 }
 
 .footer-content {

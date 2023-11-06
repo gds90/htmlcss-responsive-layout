@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .db {
     border: 1px dashed black;
 }
@@ -16,6 +20,13 @@
     color: white;
     padding: 0 30px;
     align-items: center;
+}
+
+.footer-content {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    height: 150px;
+    padding: 30px;
 }
 
 .container {
@@ -34,6 +45,10 @@
 }
 
 .work-with-us {
+    background-color: rgb(150, 146, 222);
+}
+
+.get-started {
     background-color: rgb(150, 146, 222);
 }
 

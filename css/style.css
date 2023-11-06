@@ -17,3 +17,26 @@
     padding: 0 2rem;
     align-items: center;
 }
+
+.container {
+    background-color: blue;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+}
+
+/* COLUMN  */
+.col-100 {
+    width: 100%;
+    background-color: red;
+    height: 500px;
+}
+
+/* UTILITIES */
+.p-y-40 {
+    padding: 40px 0;
+}

@@ -14,12 +14,12 @@
     height: 75px;
     justify-content: space-between;
     color: white;
-    padding: 0 2rem;
+    padding: 0 30px;
     align-items: center;
 }
 
 .container {
-    background-color: blue;
+    width: 100%;
 }
 
 .row {
@@ -27,6 +27,10 @@
     flex-wrap: wrap;
     width: 100%;
     gap: 20px;
+}
+
+.planning {
+    background-color: rgb(150, 146, 222);
 }
 
 /* COLUMN  */
@@ -37,6 +41,19 @@
 }
 
 /* UTILITIES */
-.p-y-40 {
+.text-center {
+    text-align: center;
+}
+.p-y-4 {
     padding: 40px 0;
+}
+
+.p-2 {
+    padding: 20px;
+}
+.p-3 {
+    padding: 30px;
+}
+.p-4 {
+    padding: 40px;
 }

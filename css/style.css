@@ -90,13 +90,18 @@ header {
 
 /* STRATEGIC SECTION  */
 .planning {
-    color:#fff ;
+    color:#fff;
+    background-color: rgb(150, 146, 222);
 }
 .planning p {
     font-size: 14px;
     line-height: 2;
     font-weight: 200;
 }
+.planning h2 {
+    font-size: 2rem;
+}
+
 .box-developer {
     background-color: #fff;
     border-radius: 50px;
@@ -117,6 +122,38 @@ header {
     margin-bottom: 10px;
 }
 
+/* TESTIMONIAL SECTION  */
+
+.testimonials h2 {
+    color: rgb(150, 146, 222);
+}
+.testimonials p {
+    font-size: 1rem;
+    line-height: 2;
+    font-weight: 200;
+}
+
+.testimonial-card {
+    background-color: rgb(150, 146, 222);
+    border-radius: 40px;
+    color: #fff;
+}
+
+.testimonial-card img {
+    clip-path: circle();
+}
+
+.testimonial-name {
+    display: block;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.fa-quote-left, .fa-quote-right {
+    font-size: 1.5rem;
+}
+
+
 
 
 
@@ -129,9 +166,7 @@ header {
 }
 
 
-.planning {
-    background-color: rgb(150, 146, 222);
-}
+
 
 .work-with-us {
     background-color: rgb(150, 146, 222);
@@ -147,7 +182,7 @@ header {
     margin: 10px;
 }
 
-/* UTILITIES */
+/* UTILITIES CLASS */
 .text-center {
     text-align: center;
 }
@@ -164,11 +199,23 @@ header {
 .p-x-3 {
     padding: 0 30px;
 }
+.p-y-2 {
+    padding: 20px 0;
+}
 .p-y-3 {
     padding: 30px 0;
 }
 .p-y-4 {
     padding: 40px 0;
+}
+.m-y-2 {
+    margin: 20px 0;
+}
+.mt-2 {
+    margin-top: 20px;
+}
+.mt-4 {
+    margin-top: 40px;
 }
 .container {
     width: 100%;

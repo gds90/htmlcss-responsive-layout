@@ -76,3 +76,24 @@ body {
 .p-4 {
     padding: 40px;
 }
+
+/* MEDIA QUERY */
+
+@media screen and (min-width:768px) { 
+    .utilities .col-100 {
+        width: calc(100% / 3 - 20px)
+    }
+    .utilities .col-big {
+        width: calc(100% / 3 * 2 - 20px)
+    }
+    .work-with-us .col-100 {
+        width: calc(100% / 2 - 20px)
+    }
+    .about-us .col-60 {
+        width: calc(60% - 20px);
+    }
+    .about-us .col-40 {
+        width: calc(40% - 20px);
+    }
+
+}

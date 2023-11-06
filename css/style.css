@@ -142,7 +142,7 @@ header {
 
 .testimonial-card img {
     clip-path: circle();
-    max-width: 50%;
+    width: 100%;
 }
 
 .testimonial-name {
@@ -226,6 +226,41 @@ header {
     margin-right: 10px;
 }
 
+/* GET STARTED SECTION  */
+.get-started {
+    background-color: rgb(150, 146, 222);
+    color: #fff;
+}
+.highlight {
+    display: block;
+    margin: 20px 0;
+    font-size: 3.5rem;
+    color: rgb(244,195,111);
+    font-weight: 600;
+}
+.get-started p {line-height: 2;}
+
+.get-start-button {
+    background-color: #fff;
+    color:rgb(150, 146, 222);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 20px 80px;
+    border: none;
+    border-radius: 40px;
+}
+
+.copyright {
+    display: block;
+    font-size: 0.8rem;
+}
+
+.copyright a {
+    color: #fff;
+}
+ul.copyright li:first-child {
+    list-style: none;
+}
 
 
 .footer-content {
@@ -233,15 +268,11 @@ header {
     color: white;
     height: 150px;
     padding: 30px;
+    font-size: 0.7rem;
 }
 
-
-
-
-
-
-.get-started {
-    background-color: rgb(150, 146, 222);
+.footer-content a {
+    color:rgb(150, 146, 222);
 }
 
 /* COLUMN  */
@@ -279,6 +310,9 @@ header {
 .m-y-2 {
     margin: 20px 0;
 }
+.m-y-3 {
+    margin: 30px 0;
+}
 .mt-2 {
     margin-top: 20px;
 }
@@ -312,7 +346,42 @@ header {
     .about-us .col-40 {
         width: calc(40% - 20px);
     }
-
+    .planning h2 {
+        font-size: 3rem;
+    }
+    .testimonials h2 {
+        font-size: 2rem;
+    }
+    .testimonial-card {
+        content:"";
+        display:table;
+        clear:both;
+    }
+    .testimonial-card img {
+       float: left;
+       width: 50%;
+    }
+    .testimonial-card p {
+        text-align: left;
+        padding-top: 20px;
+    }
+    .testimonial-name {
+        text-align: left;
+    }
+    .about-us h2 {
+        font-size: 3.5rem;
+    }
+    .get-started .container {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    .footer-content .container {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    .about-us img {
+        max-width: 80%;
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -337,5 +406,13 @@ header {
     }
     .header-menu {
         display: flex;
+    }
+    .utilities .phone {
+        position: initial;
+        float: right;
+        width: 50%;
+    }
+    .col-big {
+       
     }
 }

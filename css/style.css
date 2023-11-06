@@ -142,6 +142,7 @@ header {
 
 .testimonial-card img {
     clip-path: circle();
+    max-width: 50%;
 }
 
 .testimonial-name {
@@ -193,7 +194,37 @@ header {
 
 /* ABOUT US SECTION  */
 
+.about-us h2 {
+    color: rgb(150, 146, 222);
+    font-size: 2rem;
+}
+.about-us p {
+    line-height: 2;
+    margin: 40px 0;
+}
 
+.about-us img {
+    clip-path: circle();
+    max-width: 50%;
+}
+
+.col-40 p{
+    color: rgb(150, 146, 222);
+    font-size: 1.5rem;
+}
+
+.linkedin-button {
+    background-color: rgb(150, 146, 222);
+    color:#fff;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+}
+.fa-linkedin {
+    margin-right: 10px;
+}
 
 
 
